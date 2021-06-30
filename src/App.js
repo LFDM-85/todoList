@@ -46,7 +46,7 @@ function App() {
   return (
     <div className="App">
       <Typography style={{ padding: 16 }} variant="h1">
-        Todo List
+        To Do List
       </Typography>
       <NewTodoForm addTodo={addTodo} />
       <Todolist

@@ -25,7 +25,7 @@ const NewTodoForm = ({ addTodo }) => {
         type="text"
         value={todo.task}
         onChange={inputTaskHandler}
-      ></TextField>
+      />
       <Button type="submit">OK</Button>
     </form>
   );
